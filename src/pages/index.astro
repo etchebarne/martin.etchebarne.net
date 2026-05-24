@@ -1,6 +1,7 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import FormattedDate from '../components/FormattedDate.astro';
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import { PROFILE, SITE_DESCRIPTION, SITE_TITLE, SOCIAL_LINKS } from '../consts';
 
@@ -162,7 +163,14 @@ const posts = (await getCollection('blog')).sort(
 						}
 					</nav>
 				</div>
-				<img class="profile-image" src={PROFILE.image} alt={`Portrait of ${PROFILE.name}`} />
+				<Image
+					class="profile-image"
+					src={PROFILE.image}
+					alt={`Portrait of ${PROFILE.name}`}
+					width={220}
+					height={220}
+					loading="eager"
+				/>
 			</section>
 
 			<section aria-labelledby="posts-heading">
