@@ -15,14 +15,12 @@ export const PROFILE = {
 export const SOCIAL_LINKS = [
 	{
 		label: 'GitHub',
-		href: 'https://github.com/',
+		href: 'https://github.com/etchebarne',
+		icon: '/github.svg',
 	},
 	{
-		label: 'LinkedIn',
-		href: 'https://www.linkedin.com/',
-	},
-	{
-		label: 'Email',
-		href: 'mailto:hello@example.com',
+		label: 'X',
+		href: 'https://x.com/martinetbn',
+		icon: '/x.svg',
 	},
 ];
