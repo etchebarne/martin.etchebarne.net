@@ -26,15 +26,6 @@ const posts = (await getCollection('blog')).sort(
 				padding: 2.5rem 0 4rem;
 			}
 
-			.eyebrow {
-				margin: 0 0 0.75rem;
-				color: rgb(var(--gray));
-				font-size: 0.9rem;
-				font-weight: 700;
-				letter-spacing: 0.08em;
-				text-transform: uppercase;
-			}
-
 			.hero h1 {
 				margin-bottom: 1rem;
 				font-size: clamp(2.4rem, 8vw, 4.75rem);
@@ -159,7 +150,6 @@ const posts = (await getCollection('blog')).sort(
 		<main>
 			<section class="hero" aria-labelledby="intro-heading">
 				<div>
-					<p class="eyebrow">{PROFILE.title}</p>
 					<h1 id="intro-heading">{PROFILE.name}</h1>
 					<p class="intro">{PROFILE.description}</p>
 					<nav class="socials" aria-label="Social links">

@@ -6,7 +6,6 @@ export const SITE_DESCRIPTION = 'Personal website and blog for Martin Etchebarne
 
 export const PROFILE = {
 	name: 'Martin Etchebarne',
-	title: 'Software Developer',
 	description:
 		'I build useful software, write about what I am learning, and share notes from the things I am working on.',
 	image: 'https://avatars.githubusercontent.com/u/70920939',

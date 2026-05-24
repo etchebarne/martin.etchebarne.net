@@ -21,7 +21,7 @@ html {
 	background: #000;
 }
 body {
-	font-family: var(--font-atkinson);
+	font-family: var(--font-red-hat-display);
 	margin: 0;
 	padding: 0;
 	text-align: left;
