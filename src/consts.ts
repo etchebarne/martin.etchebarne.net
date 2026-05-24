@@ -7,7 +7,7 @@ export const SITE_DESCRIPTION = 'Personal website and blog for Martin Etchebarne
 export const PROFILE = {
 	name: 'Martin Etchebarne',
 	description:
-		'I build useful software, write about what I am learning, and share notes from the things I am working on.',
+		'founder of etchebarne.net, i create free and open-source software to make Linux a better experience for casual users',
 	image: 'https://avatars.githubusercontent.com/u/70920939',
 };
 

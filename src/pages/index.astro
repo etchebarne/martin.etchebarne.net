@@ -42,7 +42,7 @@ const posts = (await getCollection('blog')).sort(
 			.profile-image {
 				width: 220px;
 				aspect-ratio: 1;
-				border-radius: 28px;
+				border-radius: 50%;
 				object-fit: cover;
 			}
 
@@ -167,7 +167,7 @@ const posts = (await getCollection('blog')).sort(
 
 			<section aria-labelledby="posts-heading">
 				<div class="posts-header">
-					<h2 id="posts-heading">Latest writing</h2>
+					<h2 id="posts-heading">Latest posts</h2>
 				</div>
 				<ul class="post-list">
 					{
