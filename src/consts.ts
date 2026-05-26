@@ -13,6 +13,11 @@ export const PROFILE = {
 
 export const SOCIAL_LINKS = [
 	{
+		label: 'etchebarne.net',
+		href: 'https://etchebarne.net',
+		icon: '/etchebarne.svg',
+	},
+	{
 		label: 'GitHub',
 		href: 'https://github.com/etchebarne',
 		icon: '/github.svg',

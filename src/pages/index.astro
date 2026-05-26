@@ -65,10 +65,18 @@ const posts = (await getCollection('blog')).sort(
 			}
 
 			.socials img {
-				width: 1.6rem;
-				height: 1.6rem;
+				width: var(--social-icon-size, 1.6rem);
+				height: var(--social-icon-size, 1.6rem);
 				border-radius: 0;
 				filter: invert(1);
+			}
+
+			.socials img[src='/etchebarne.svg'] {
+				--social-icon-size: 1.8rem;
+			}
+
+			.socials img[src='/x.svg'] {
+				--social-icon-size: 1.55rem;
 			}
 
 			.socials a:hover {
